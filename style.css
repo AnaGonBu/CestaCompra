@@ -1,0 +1,242 @@
+/* Fondo y configuración básica */
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image:url(img/Gemini_Generated_Image_vn4tumvn4tumvn4t.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+/* Título */
+h1{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #7a7a7b;
+    font-weight: 600;
+    font-size: 36px;
+    opacity: 5;
+}
+#vaciar{
+    margin-right: 5px;
+}
+.volver{
+    color: #7a7a7b;  
+}
+
+/* Contenedor principal */
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Centra los elementos de la columna */
+}
+
+
+/* Encabezado con carrito */
+.head-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    margin-bottom: 20px; /* Reduce el espacio entre encabezado y botones */
+    position: relative;
+}
+.title-container{
+    width: 100%;
+}
+/* Línea del encabezado */
+.lineaEncabezado {
+    border: none;
+    height: 2px;
+    background-color: white;
+    width: 85%; /* Anchura de la línea centrada */
+    margin:0;
+}
+
+/* Tarjeta del carrito */
+.card {
+    width: 180px;
+    max-width: 200px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+    opacity: 0.9;
+    position: fixed;
+    right: 2%; /* Coloca el carrito al lado derecho */
+    top: 20;
+
+}
+
+/* Lista de botones */
+.list-prod {
+    width: 80%; /* Ajusta el ancho de la lista de botones */
+}
+
+.list-prod-item {
+    margin-bottom: 5px;
+    border-radius: 8px;
+    text-align: center;
+    height: 80px;
+    opacity: 0.6;
+    text-align: left;
+}
+.list-prod-item:hover{
+    background-color: #8d8d8e;
+    color: black;
+}
+.h1_2 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #7a7a7b;
+    font-weight: 600;
+    font-size: 36px;
+}
+.main-container2 {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100px;
+}
+.content {
+    margin: 5%;
+    margin-top: 2%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+table.productos {
+    width: 75%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+table.productos th, table.productos td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table.productos th {
+    background-color: #f5f5f5;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+table.productos td {
+    background-color: #fff;
+    font-size: 16px;
+}
+
+table.productos tr:hover {
+    background-color: #f1f1f1;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.resumen {
+    width: 20%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    opacity:0.9 ;
+}
+
+.resumen h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+#resumen-pedido {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+/* Cada fila de producto alineada en una línea */
+.prod_descripcion,
+.prod_precio {
+    font-size: 15px;
+    padding: 5px 0;
+}
+.prod_descripcion {
+    float: left; /* Alinea el nombre y cantidad a la izquierda */
+}
+ul{
+    padding-inline-start: 5px;
+}
+li{
+    list-style: none;
+    font-size: 13px;
+    padding: 5px;
+}
+.prod_precio {
+    float: right; /* Alinea el precio a la derecha */
+    text-align: right;
+}
+/* Limpiar flotación para que no afecte al contenedor */
+#resumen-pedido::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+
+.total-final-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.total-label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total-amount {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.cantidad-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad-control button {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cantidad-control input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.icon-link{
+   margin-left: 5%; 
+}

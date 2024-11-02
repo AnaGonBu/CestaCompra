@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/spz.png" type="image/x-icon">
+    <title>Carrito de la compra - AgoodShop</title>
+    <link rel="stylesheet" href="style.css"> <!-- Archivo CSS -->
+</head>
+<body>
+    <div class="main-container2">
+        <!-- Encabezado -->
+        <h1 id="h1_2">AgoodShop</h1>
+        <hr class="lineaEncabezado">
+
+        <div class="content">
+            <!-- Tabla de productos -->
+            <table class="productos" id="tablaProductos">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Pr. Unidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="carrito-tbody"> 
+                    <!-- Los productos se añadirán dinámicamente aquí -->
+                </tbody>
+            </table>
+
+            <!-- Resumen del pedido a la derecha -->
+            <div class="resumen" id="total-final">
+                <h3>Total</h3>
+                <hr class="lineaTotal"><strong ></strong>
+                <div id="resumen-pedido">
+                    <ul>
+                        <!-- Resumen del pedido dinámico -->
+                    </ul>
+                </div> 
+                <div class="total-final-container">
+                    <span class="total-label"><strong>TOTAL</strong></span>
+                    <span id="total-final-amount" class="total-amount">0€</span>
+                </div>
+                <a class="icon-link volver" href="#" id="vaciar">Vaciar Carrito</a>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!-- <script src="carrito.js"></script> Clase Carrito --> 
+    <script src="DOM.js" type="module"></script> <!-- Lógica del DOM -->
+</body>
+</html>
