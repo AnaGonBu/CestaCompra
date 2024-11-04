@@ -1,4 +1,4 @@
-# Actividad 1: Carrito de la compra agoodshop
+# Actividad 1: Carrito de la compra Agoodshop
 
 Objetivos de la actividad
 
